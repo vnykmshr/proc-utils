@@ -1,5 +1,5 @@
-node-proc
-=========
+proc-utils
+==========
 
 Process Management for Node processes
 ------
@@ -13,7 +13,7 @@ Usage
 ------
 
 ```
-var proc = require('node-proc');
+var proc = require('proc-utils');
 
 proc.init(app, options);
 ```

@@ -1,5 +1,5 @@
 {
-    "name": "node-proc",
+    "name": "proc-utils",
     "version": "0.0.1",
     "description": "Process Management for Node daemons",
     "main": "index.js",
@@ -12,11 +12,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:vnykmshr/node-proc.git"
+        "url": "git@github.com:vnykmshr/proc-utils.git"
     },
     "keywords": [
-        "node-process",
-        "process management"
+        "node process",
+        "process management",
+        "node utils",
+        "npm utils"
     ],
     "author": "Vinayak Mishra",
     "license": "MIT"
