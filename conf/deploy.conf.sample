@@ -1,0 +1,8 @@
+[local]
+key  keys/self
+user www-data
+host 127.0.0.1
+repo git@github.com:vnykmshr/headstart.git
+path /var/www/headstart/releases
+ref origin/master
+post-deploy ./bin/deploy

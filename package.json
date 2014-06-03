@@ -1,0 +1,23 @@
+{
+    "name": "node-proc",
+    "version": "0.0.1",
+    "description": "Process Management for Node daemons",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "optimist": "*",
+        "recluster": "git://github.com/doxout/recluster.git"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:vnykmshr/node-proc.git"
+    },
+    "keywords": [
+        "node-process",
+        "process management"
+    ],
+    "author": "Vinayak Mishra",
+    "license": "MIT"
+}
