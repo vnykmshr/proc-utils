@@ -3,6 +3,5 @@
 var proc = require('./lib/proc');
 proc.utils = require('./lib/utils');
 proc.predicate = require('./lib/predicate');
-proc.ismobile = require('./lib/detect-mobile');
 
 module.exports = proc;
