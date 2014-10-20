@@ -1,12 +1,13 @@
 {
     "name": "proc-utils",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Process Management for Node daemons",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
+        "debug": "*",
         "optimist": "*",
         "recluster": "git://github.com/doxout/recluster.git",
         "valid-url": "~1.0.9",
