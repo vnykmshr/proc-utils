@@ -1,6 +1,6 @@
 {
     "name": "proc-utils",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Process Management for Node daemons",
     "main": "index.js",
     "scripts": {
@@ -11,7 +11,8 @@
         "optimist": "*",
         "recluster": "git://github.com/doxout/recluster.git",
         "valid-url": "~1.0.9",
-        "moment": "~2.6.0"
+        "moment": "~2.6.0",
+        "request": "*"
     },
     "repository": {
         "type": "git",
