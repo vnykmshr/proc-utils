@@ -7,7 +7,7 @@ var util = require('util');
 var path = require('path');
 var http = require('http');
 var recluster = require('recluster');
-var args = require('optimist').argv;
+var args = require('yargs').argv;
 
 var flagReload = true;
 
@@ -74,7 +74,8 @@ function startApp(filename) {
 
     var opts = {
         timeout: 30,
-        respawn: 60
+        respawn: 60,
+        args: process.argv
     };
 
     var cluster = recluster(filename, opts);
