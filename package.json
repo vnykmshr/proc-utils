@@ -1,6 +1,6 @@
 {
   "name": "proc-utils",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Process Management for Node daemons",
   "main": "index.js",
   "scripts": {
